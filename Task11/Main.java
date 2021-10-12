@@ -9,13 +9,6 @@ public class Main {
         drivers[1] = new Driver("Artem", "Turko",5);
 
         final Car taxiCar = new Car("Mitsubishi","V666V","Black" ,3, drivers);
-        final Client client = new Client();
-        final Order order  = new Order();
-
-        client.setName("Petro");
-
-        order.setClient(client);
-        order.setTaxiCar(taxiCar);
 
         System.out.println(taxiCar);
 

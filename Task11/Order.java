@@ -10,16 +10,7 @@ public class Order {
     private Car taxiCar;
     private Client client;
 
-    public Order(){
-        this.orderNumber = 0;
-        this.price = 0;
-        this.countOfPassengers = 0;
-        this.timeToArrival  = 0;
-        final Driver[] drivers = new Driver[0];
-        this.taxiCar = new Car("","","",0,drivers);
-        this.client = new Client("","","",new ArrayList<>());
 
-    }
     public Order(final int orderNumber, final int price, final int countOfPassengers,final int timeToArrival,
                  final Car taxiCar, final Client client) {
         this.orderNumber = orderNumber;

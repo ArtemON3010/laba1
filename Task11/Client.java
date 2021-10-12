@@ -9,12 +9,6 @@ public class Client {
     private String phoneNumber;
     ArrayList<Order> orders;
 
-    public Client(){
-        this.name = "";
-        this.surname = "";
-        this.phoneNumber = "";
-        this.orders = new ArrayList<>();
-    }
     public Client(final String name, final String surname, final String phoneNumber, final ArrayList<Order> orders) {
         this.name = name;
         this.surname = surname;
