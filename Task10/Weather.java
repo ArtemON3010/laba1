@@ -50,8 +50,8 @@ public class Weather {
 
     @Override
     public int hashCode() {
-        return 123 * this.getTemperature() +
-                123 * this.getTypeOfWeather().hashCode();
+        return 7 * this.getTemperature() +
+                7 * this.getTypeOfWeather().hashCode();
 
     }
 

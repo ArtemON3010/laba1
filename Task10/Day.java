@@ -31,7 +31,7 @@ public class Day {
 
     @Override
     public int hashCode() {
-        return this.getWeather().hashCode() + 123 * getDayOfTheWeek().hashCode();
+        return this.getWeather().hashCode() + 7 * getDayOfTheWeek().hashCode();
     }
 
     @Override

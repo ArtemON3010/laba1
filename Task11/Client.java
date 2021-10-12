@@ -71,6 +71,6 @@ public class Client {
 
     @Override
     public int hashCode() {
-        return 123 * Objects.hash(name, surname, phoneNumber, orders);
+        return Objects.hash(name, surname, phoneNumber, orders);
     }
 }

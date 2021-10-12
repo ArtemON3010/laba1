@@ -92,7 +92,7 @@ public class Order {
 
     @Override
     public int hashCode() {
-        return 123 * Objects.hash(orderNumber, price, countOfPassengers,timeToArrival, taxiCar, client);
+        return Objects.hash(orderNumber, price, countOfPassengers,timeToArrival, taxiCar, client);
     }
 
 

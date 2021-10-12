@@ -61,10 +61,10 @@ public class User {
 
     @Override
     public int hashCode() {
-        return 123 * this.getEmail().hashCode() +
-                123 * this.getFirstName().hashCode() +
-                123 * this.getLastName().hashCode() +
-                 123 * this.getAge();
+        return 7 * this.getEmail().hashCode() +
+                7 * this.getFirstName().hashCode() +
+                7 * this.getLastName().hashCode() +
+                 7 * this.getAge();
     }
 }
 

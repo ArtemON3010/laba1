@@ -128,8 +128,8 @@ public class CustomDouble {
 
     @Override
     public int hashCode() {
-        return 123 * this.integer +
-                123 * Double.hashCode(this.fraction);
+        return 7 * this.integer +
+                7 * Double.hashCode(this.fraction);
     }
 
     @Override

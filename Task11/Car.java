@@ -79,7 +79,7 @@ public class Car {
     @Override
     public int hashCode() {
         int result = Objects.hash(model,number,color, capacity );
-        result = 123 * result + Arrays.hashCode(driver);
+        result = 7 * result + Arrays.hashCode(driver);
         return result;
     }
 
