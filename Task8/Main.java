@@ -27,5 +27,8 @@ public class Main {
         System.out.println("number4 = " + number4);
 
         System.out.println("number3 == number4: " + number3.equals(number4));
+
+        System.out.println(number2.toDouble());
+
     }
 }

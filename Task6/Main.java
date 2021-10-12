@@ -13,6 +13,6 @@ public class Main {
         matrix2.PrintM();
 
         System.out.println("\nNew multiplied matrix: \n" );
-        (matrix1.Multi(matrix2)).PrintM();
+        (matrix1.multiplying(matrix2)).PrintM();
     }
 }

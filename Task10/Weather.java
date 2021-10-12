@@ -1,5 +1,7 @@
 package Task10;
 
+import java.util.Objects;
+
 public class Weather {
     private int temperature;
     private String typeOfWeather;
@@ -42,9 +44,7 @@ public class Weather {
 
         final Weather weather = (Weather) obj;
         return this.getTemperature() == weather.getTemperature()
-                && (this.getTypeOfWeather() == weather.getTypeOfWeather()
-                || (this.getTypeOfWeather() != null && this.getTypeOfWeather().equals(weather.getTypeOfWeather())));
-
+                && Objects.equals(this.getTypeOfWeather(), weather.getTypeOfWeather());
 
     }
 

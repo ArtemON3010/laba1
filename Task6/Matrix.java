@@ -43,7 +43,7 @@ public class Matrix {
         }
     }
 
-    public Matrix Multi(final Matrix matrix) {
+    public Matrix multiplying(final Matrix matrix) {
         if (this.numberOfColumns != matrix.numberOfRows) throw new IndexOutOfBoundsException("Wrong matrix dimensions");
 
         final Matrix result = new Matrix(this.numberOfRows, matrix.numberOfColumns);

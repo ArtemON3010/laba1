@@ -8,7 +8,7 @@ public class Calculator {
             case '+':
                 return a.addition(b).toDouble();
             case '-':
-                return a.division(b).toDouble();
+                return a.subtraction(b).toDouble();
             case '*':
                 return a.multiplying(b).toDouble();
             case '/':

@@ -134,7 +134,7 @@ public class CustomDouble {
 
     @Override
     public String toString() {
-        return this.toDouble() + "";
+        return "Our number = " + this.toDouble();
     }
 
     public double toDouble() {

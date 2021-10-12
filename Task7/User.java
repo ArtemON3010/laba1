@@ -1,5 +1,7 @@
 package Task7;
 
+import java.util.Objects;
+
 public class User {
     private String firstName;
     private String lastName;
@@ -56,7 +58,8 @@ public class User {
         if (obj == null || this.getClass() != obj.getClass()) return false;
 
         final User user = (User) obj;
-        return this.email == user.email;
+        return Objects.equals(this.email, user.email) && Objects.equals(this.firstName, user.firstName) &&
+                Objects.equals(this.lastName, user.lastName) && Objects.equals(this.age, user.age);
     }
 
     @Override

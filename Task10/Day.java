@@ -25,8 +25,7 @@ public class Day {
         if (obj == null || this.getClass() != obj.getClass()) return false;
 
         final Day day = (Day) obj;
-        return (this.getDayOfTheWeek() == day.getDayOfTheWeek()
-                || (this.getDayOfTheWeek() != null && this.getDayOfTheWeek().equals(day.getDayOfTheWeek())));
+        return this.getDayOfTheWeek().equals(day.getDayOfTheWeek());
     }
 
     @Override

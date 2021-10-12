@@ -49,7 +49,7 @@ public class Matrix {
         return tMatrix;
     }
 
-    public void PrintM() {
+    public void Print() {
         for (int i = 0; i < numberOfRows; i++) {
             for (int j = 0; j < numberOfColumns; j++) {
                 System.out.print(matrix[i][j] + " ");

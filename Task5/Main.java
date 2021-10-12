@@ -6,9 +6,9 @@ public class Main {
         final Matrix matrix = new Matrix();
 
         System.out.println("\n Our matrix: \n" );
-        matrix.PrintM();
+        matrix.Print();
 
         System.out.println("\nTransposed matrix: \n" );
-        (matrix.Transposition()).PrintM();
+        (matrix.Transposition()).Print();
     }
 }
